@@ -1,15 +1,19 @@
 # Twitch Emote Scraper
 This is a tool to download a lot of twitch emotes and their names. This is done by generating emote set ids starting from 1 and going up, and downloading the associated emotes from twitch.
 
-# Twitch Credentials
+## Twitch Credentials
 To use the Twitch API you will need a Client ID and Client Secret. This can be achieved by creating an application at [Twitch Developer Portal](https://dev.twitch.tv/)
 
-# Installation
-To build this tool you will need to install the [Go Programming Language](https://go.dev/dl/). Then you will need to clone this repository and run `go run ./cmd/main.go`.
+## Installation
+To build this tool you will need to install the [Go Programming Language](https://go.dev/dl/).
 
-You can also directly install the CLI tool using `go install github.com/sha65536/twitchemotes/cmd/emotescraper@latest`.
+Then you will need to clone this repository and run `go run ./cmd/main.go`.
 
-# Usage
+You can also directly install the CLI tool using:
+
+`go install github.com/sha65536/twitchemotes/cmd/emotescraper@latest`.
+
+## Usage
 I've included a small CLI tool in the cmd folder:
 ```
 NAME:
